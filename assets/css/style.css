@@ -1,0 +1,244 @@
+/*setting*/
+body {
+	color: #6f6f6f;
+	line-height: 2.0;
+	box-sizing: border-box;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: bold;
+}
+ul,li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+img {
+	max-width: 100%;
+}
+a {
+	color: #338DCB;
+}
+a:hover {
+	font-size: 110%;
+	color: #F3F8FC;
+}
+p {
+	margin: 0;
+}
+
+
+.mw500 {
+	max-width: 500px;
+	margin: auto;
+}
+.mw1000 {
+	max-width: 1000px;
+	margin: auto;
+}
+.fullScreen {
+	height: 100vh;
+	width: 100vw;
+}
+.w20vw {
+	width: 20vw;
+}
+.h20vh {
+	height: 20vh;
+}
+.w30vw {
+	width: 30vw;
+}
+.h30vh {
+	height: 30vh;
+}
+.w40vw {
+	width: 40vw;
+}
+.h40vh {
+	height: 40vh;
+}
+.w50vw {
+	width: 50vw;
+}
+.h50vh {
+	height: 50vh;
+}
+.w60vw {
+	width: 60vw;
+}
+.h60vh {
+	height: 60vh;
+}
+.w70vw {
+	width: 70vw;
+}
+.h70vh {
+	height: 70vh;
+}
+.w80vw {
+	width: 80vw;
+}
+.h80vh {
+	height: 80vh;
+}
+.w100vw {
+	width: 100vw;
+}
+.h100vh {
+	height: 100vh;
+}
+.minH400 {
+	min-height: 400px;
+}
+.minH500 {
+	min-height: 500px;
+}
+.fontSize70 {
+	font-size: 50%;
+}
+
+
+.bkCover {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.bkContain {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+
+
+.bk1 {
+	background-color: #232323;
+}
+.bk2 {
+	background-color: #484848;
+}
+.bk3 {
+	background-color: #ff004700;
+}
+.bk4 {
+	background-color: #ff008c;
+}
+.bk5 {
+	background-color: #F3F8FC;
+}
+.bk6 {
+	background-color: #030E3C;
+}
+.bkWhite {
+	background-color: #ffffff;
+}
+.bkBlack {
+	background-color: #000000;
+}
+
+.gradient1 {
+	background: linear-gradient(#484848, #ff004700);
+}
+
+.color1 {
+	color: #FF89AC;
+}
+.color2 {
+	color: #AFE9DE;
+}
+.color3 {
+	color: #FFE798;
+}
+.color4 {
+	color: #ff008c;
+}
+.color5 {
+	color: #F3F8FC;
+}
+.color6 {
+	color: #030E3C;
+}
+.colorWhite {
+	color: #ffffff;
+}
+.colorBlack {
+	color: #000000;
+}
+
+.shadow1 {
+	box-shadow: 5px 2px 15px #FF89AC;
+}
+.shadow2 {
+	box-shadow: 5px 5px 15px #AFE9DE;
+}
+.shadow3 {
+	box-shadow: 5px 5px 15px #FFE798;
+}
+.shadow4 {
+	box-shadow: 5px 5px 15px #338DCB;
+}
+.shadow5 {
+	box-shadow: 5px 5px 15px #F3F8FC;
+}
+.shadow6 {
+	box-shadow: 5px 5px 15px #030E3C;
+}
+.shadowWhite {
+	box-shadow: 5px 5px 15px #ffffff;
+}
+.shadowBlack {
+	box-shadow: 5px 5px 15px #00000047;
+}
+
+.overlay1::before{
+	background: linear-gradient(130deg, #00000087, #00000075);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+	z-index: 79;
+}
+.overlay2::before{
+	background: linear-gradient(150deg, #007598b8, #00759805);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+	z-index: 79;
+}
+
+
+
+.overlayChild {
+	z-index: 80;
+	position: relative;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+
+
+
+
+/*edit bootstrap*/
+.borderBottom {
+	border-bottom: 1px solid #6f6f6f !important;
+}
+.borderBottomWhite {
+	border-bottom: 1px solid #ffffff !important;	
+}
+
+.ctaBtn {
+	border-radius: 100px;
+}
+.testyBox {
+	border-radius: 20px;
+	overflow: hidden;
+
+}
